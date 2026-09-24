@@ -1,0 +1,36 @@
+﻿# Dependencias
+node_modules/
+.pnpm-store/
+
+# Builds
+dist/
+build/
+dev-dist/
+coverage/
+
+# Variables de entorno (claves de Supabase, etc.)
+.env
+.env.*
+!.env.example
+
+# Pruebas (Playwright)
+playwright-report/
+test-results/
+
+# Despliegue
+.vercel/
+.netlify/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Sistema operativo y logs
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+
+# TypeScript
+*.tsbuildinfo

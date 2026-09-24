@@ -1,0 +1,17 @@
+   {
+     "name": "gymtrack-unal",
+     "private": true,
+     "version": "1.0.0",
+     "description": "GymTrack UNAL: app web del gimnasio universitario",
+     "scripts": {},
+     "devEngines": {
+       "packageManager": {
+         "name": "pnpm",
+         "version": "12.6.0",
+         "onFail": "download"
+       }
+     },
+     "packageManager": "pnpm@12.6.0",
+     "type": "module"
+   }
+   
